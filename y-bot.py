@@ -25,6 +25,7 @@ def main():
     # Initialize the client
     print("Starting up...")
     client = discord.Client()
+    model = ""
 
     # Define event handlers for the client
     # on_ready may be called multiple times in the event of a reconnect,
@@ -65,6 +66,27 @@ def main():
             except:
                 print("Error while handling message", flush=True)
                 raise
+
+    #from https://towardsdatascience.com/how-to-build-your-own-ai-chatbot-on-discord-c6b3468189f4
+    async def on_message(self, message):
+        if message.author.id == self.user.id:
+            return
+
+        else:
+            inp = message.content
+            #result = model.predict([bag_of_words(inp, words)])[0]
+            #result_index = np.argmax(result)
+            #tag = labels[result_index]
+
+            #if result[result_index] > 0.7:
+             #   for tg in data["intents"]:
+               #     if tg['tag'] == tag:
+                #        responses = tg['responses']
+
+                #bot_response = random.choice(responses)
+                #await message.channel.send(bot_response.format(message))
+           # else:
+              #  await message.channel.send("Entschuldigung ich habe das nicht verstanden.".format(message))
 
     @client.event
     async def on_message(message):
