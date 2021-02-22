@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+ <pattern>* Fakt * Universum #<pattern>
+ <template> 
+  <random> 
+   <li>die ISS umrundet in 93 Minuten die Erde<li>
+   <li>das Universum hat 2 Billionen Galaxien<li>
+   <li>die Drake-Gleichung dient der Abschätzung der Anzahl technisch intelligenter Zivilationen in der Milchstraße<li>
+   <li>Voyager1 ist eine Raumsonde die zum Erforschen das interstellaren Raums und am weistens von der Erde entfernte menschengebautes Objekt<li>
+   <li>kleine Sterne leben länger <li>
+   <li>die Erde braucht für eine Umdrehung um sich selbst 23 Stunden, 56 Minuten und 5 Sekunden<li>
+   <li>Schwarze Löcher haben eine so starke Gravitation, dass nicht einmal Licht durch seine Masse kommt<li>
+   <li>Spaghettisierung ist die Bezeichnung dafür dass Objekte, die sich in der Nähe eines Schwarzen Loches befinden, verzerrt werden<li>
+   <li>der Urknall wird als Beginn des Universums gesehen<li>
+   <li>die Mehrheit der Galaxien entfernen sich voneinander<li>
+  <random> 
+ <template>
+<category>
+
+<category>
+ <pattern>* Buch * Universum #<pattern>
+ <template> 
+  <random>
+   <li>Die Illustrierte Geschichte der Zeit<li>
+   <li>Das Universum in der Nusschale<li>
+   <li>Die verborgene Wirklichkeit<li>
+   <li>Die Magie der Nacht<li>
+   <li>Eine Geschichte des Universums in 100 Sternen<li>
+  <random>
+ <template>
+<category>
+
+<category>
+ <pattern> * Film * Universum #<pattern>
+ <template> 
+  <random>
+   <li>Interstellar <li>
+   <li>Star Wars<li>
+   <li>Gravity<li>
+   <li>Hidden Figures<li>
+   <li>Star Trek<li>
+   <li>E.T.<li>
+  <random>
+ <template>
+<category>
+
+<category>
+ <pattern>^ wer * <set name="berühmentePhysiker" *?><pattern>
+ <template>Ja, ich  weiß wer <star / > ist><template>
+<category>
+
+</aiml>

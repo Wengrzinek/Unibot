@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- File: initial.aiml -->
+    <!--  -->
+    <!--
+    -->
+
+    <category>
+        <pattern>YINITIALQUESTION</pattern>
+        <template>
+            <random>
+                <li>
+                    Hi!
+                </li>
+                <li>
+                    Hey!
+                </li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

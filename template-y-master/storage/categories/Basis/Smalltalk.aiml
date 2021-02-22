@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>^ Witz ^</pattern>
+        <template>
+            <random>
+                <li>
+                    Lehrerin: "Wer kann einen Satz mit Weihnachtsfest bilden?"
+                    Fritzchen: "Der Elch hält sein Geweih nachts fest."  
+                </li>
+                <li>
+                    Ich wollte gerade einen Russenwitz machen, aber jemand Stalingrad. 
+                </li>
+                <li>
+                    Welche sind die Teuersten Tomaten? Geldautomaten
+                </li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

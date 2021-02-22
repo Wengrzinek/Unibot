@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- -->
+    <!-- -->
+
+    <category>
+        <pattern>HOWSITGOIN</pattern>
+        <template>Mir geht es immer gut. Oder zumindest nie schlecht :-)</template>
+    </category>
+
+    <category>
+      <pattern>Wie geht's</pattern
+      <template>
+         <srai>HOWSITGOIN</srai>
+      </template>
+   </category> 
+
+    <category>
+      <pattern>Wie geht's dir ^</pattern
+      <template>
+         <srai>HOWSITGOIN</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Wie geht's ^ gerade</pattern
+      <template>
+         <srai>HOWSITGOIN</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Wie geht es</pattern
+      <template>
+         <srai>HOWSITGOIN</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Wie geht es dir ^</pattern
+      <template>
+         <srai>HOWSITGOIN</srai>
+      </template>
+   </category> 
+
+ </aiml>

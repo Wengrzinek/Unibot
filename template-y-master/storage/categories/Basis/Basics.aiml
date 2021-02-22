@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- File: basics.aiml -->
+    <!-- -->
+    <!-- -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hallo</template>
+    </category>
+
+    <category>
+        <pattern>Hallo ^</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>Hey ^</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>Hi ^</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>Guten Tag ^</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+      <pattern>BYE</pattern>
+      <template>Tschüss!</template>
+   </category>
+   
+   <category>
+      <pattern>Tschüss ^</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Tschau ^</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Tschüssi ^</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Ciao ^</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Auf Wiedersehen ^</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Bis dann ^</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+ </aiml>
