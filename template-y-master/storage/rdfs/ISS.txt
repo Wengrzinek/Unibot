@@ -1,0 +1,5 @@
+ISS:hasPurpose:zur Forsung im Weltall
+ISS:hasSize:109
+ISS:hasSpeed:262
+ISS:isa:Raumstation
+ISS:life:phyisisch
