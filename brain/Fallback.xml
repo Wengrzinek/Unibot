@@ -1,0 +1,12 @@
+<!--    The Fallback file MUST be loaded last in learn-startup. It is the fallback for the AI
+        in case it doesn't know what to say.
+ -->
+
+
+<aiml>
+    <category>
+        <pattern>*</pattern>
+        <template>Wie bitte? Ich habe das nicht verstanden.</template>
+    </category>
+
+</aiml>

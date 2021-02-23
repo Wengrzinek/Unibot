@@ -74,7 +74,7 @@ def main():
                 raise
 
     # from https://towardsdatascience.com/how-to-build-your-own-ai-chatbot-on-discord-c6b3468189f4
-    # and https://github.com/Assassinumz/Animus/blob/master
+    # and https://github.com/Assassinumz/Animus/
     @client.event
     async def on_message(message):
         channel = message.channel
@@ -94,7 +94,7 @@ def main():
             return
         else:
             response = kernel.respond(message.content)
-            #await asyncio.sleep(random.randint(0,2))
+            await asyncio.sleep(random.randint(0, 2))
             await channel.send(response)
     #
     """

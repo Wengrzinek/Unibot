@@ -1,19 +1,10 @@
-<aiml version="1.0.1" encoding="UTF-8">
+<aiml>
     <!-- learn-startup.xml -->
     <!-- category is an atomic AIML unit -->
     <category>
         <pattern>LOAD AIML</pattern>
-
         <template>
-            <!--
-            <learn>template-y-master/storage/Basis/*</learn>
-            <learn>template-y-master/storage/Basis/Fragen/*</learn>
-            <learn>template-y-master/storage/Universum/Universum.aiml</learn>
-            <learn>template-y-master/storage/exit.aiml</learn>
-            <learn>template-y-master/storage/initial.aiml</learn>
-            <learn>template-y-master/storage/unknown.aiml</learn>
-            -->
-            <learn>alice.aiml</learn>
+            <learn>brain/*</learn>
         </template>
     </category>
 </aiml>
