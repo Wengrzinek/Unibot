@@ -1,9 +1,11 @@
 # from template
 import sys
-
+import aiml
 import settings
 import discord
 import message_handler
+import asyncio
+import random
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from events.base_event              import BaseEvent
@@ -25,7 +27,11 @@ def main():
     # Initialize the client
     print("Starting up...")
     client = discord.Client()
-    model = ""
+
+    # AIML startup
+    kernel = aiml.Kernel()
+    kernel.learn("learn-startup.xml")
+    kernel.respond("LOAD AIML")
 
     # Define event handlers for the client
     # on_ready may be called multiple times in the event of a reconnect,
@@ -67,27 +73,31 @@ def main():
                 print("Error while handling message", flush=True)
                 raise
 
-    #from https://towardsdatascience.com/how-to-build-your-own-ai-chatbot-on-discord-c6b3468189f4
-    async def on_message(self, message):
-        if message.author.id == self.user.id:
+    # from https://towardsdatascience.com/how-to-build-your-own-ai-chatbot-on-discord-c6b3468189f4
+    # and https://github.com/Assassinumz/Animus/blob/master
+    @client.event
+    async def on_message(message):
+        channel = message.channel
+
+        if message.author.bot or str(message.channel) != settings.CHANNEL_NAME:
             return
 
+        if message.author == client.user:
+            return
+
+        if message.content is None:
+            return
+
+        if message.content == "!Help":
+            response = "TODO help"
+            await channel.send(response)
+            return
         else:
-            inp = message.content
-            #result = model.predict([bag_of_words(inp, words)])[0]
-            #result_index = np.argmax(result)
-            #tag = labels[result_index]
-
-            #if result[result_index] > 0.7:
-             #   for tg in data["intents"]:
-               #     if tg['tag'] == tag:
-                #        responses = tg['responses']
-
-                #bot_response = random.choice(responses)
-                #await message.channel.send(bot_response.format(message))
-           # else:
-              #  await message.channel.send("Entschuldigung ich habe das nicht verstanden.".format(message))
-
+            response = kernel.respond(message.content)
+            #await asyncio.sleep(random.randint(0,2))
+            await channel.send(response)
+    #
+    """
     @client.event
     async def on_message(message):
         await common_handle_message(message)
@@ -95,6 +105,8 @@ def main():
     @client.event
     async def on_message_edit(before, after):
         await common_handle_message(after)
+        
+    """
 
     # Finally, set the bot running
     client.run(settings.BOT_TOKEN)
