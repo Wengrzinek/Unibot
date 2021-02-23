@@ -47,4 +47,46 @@
       </template>
    </category>
 
+   <category>
+      <pattern>Schade</pattern>
+      <template>
+         <srai>Tja, nun</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Schade *</pattern>
+      <template>
+         <srai>Tja, nun</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Schön für dich</pattern>
+      <template>
+         <srai>Ja, finde ich auch</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* schön für dich</pattern>
+      <template>
+         <srai>Ja, finde ich auch</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Schön für dich *</pattern>
+      <template>
+         <srai>Ja, finde ich auch</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* schön für dich *</pattern>
+      <template>
+         <srai>Ja, finde ich auch</srai>
+      </template>
+   </category>
+
 </aiml>
