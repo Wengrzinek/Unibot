@@ -6,7 +6,14 @@
 <aiml>
     <category>
         <pattern>*</pattern>
-        <template>Wie bitte? Ich habe das nicht verstanden.</template>
+        <template>
+            <random>
+                <li>Hmm?</li>
+                <li>Sorry, das habe ich jetzt nicht verstanden.</li>
+                <li>Wie bitte?</li>
+                <!-- TODO mehr -->
+            </random>
+        </template>
     </category>
 
 </aiml>

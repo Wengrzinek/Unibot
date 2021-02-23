@@ -87,6 +87,13 @@
 
     <category>
         <pattern>BYE</pattern>
-        <template>Angekommen - BYE</template>
+        <template>
+            <random>
+                <li>Bye</li>
+                <li>Ciao</li>
+                <li>Tschüss</li>
+                <!-- TODO mehr -->
+            </random>
+        </template>
     </category>
 </aiml>

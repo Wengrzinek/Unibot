@@ -73,7 +73,15 @@
 
     <category>
         <pattern>HI</pattern>
-        <template>Angekommen</template>
+        <template>
+            <random>
+                <li>Hi</li>
+                <li>Hey</li>
+                <li>Hallo</li>
+                <!-- TODO mehr -->
+            </random>
+
+        </template>
     </category>
 
 
