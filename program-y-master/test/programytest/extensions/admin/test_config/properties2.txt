@@ -1,5 +1,0 @@
-name:Y-Bot2
-firstname:Y
-middlename:AIML
-lastname:BoT
-fullname:Y-Bot
