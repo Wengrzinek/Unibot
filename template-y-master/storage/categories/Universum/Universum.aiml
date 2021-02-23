@@ -92,6 +92,32 @@
 </category>
 
 <category>
+ <pattern> * Spiel * <set name="AlternativWörterUniversum"></set></pattern>
+ <template> 
+  <random>
+   <li>Mass Effect</li>
+   <li>Stellaris</li>
+   <li>Endless Space</li>
+   <li>Prey</li>
+   <li>Dead Space</li>
+  </random>
+ </template>
+</category>
+
+<category>
+ <pattern> * Spiel * <set name="AlternativWörterUniversum"></set> *</pattern>
+ <template> 
+  <random>
+   <li>Mass Effect</li>
+   <li>Stellaris</li>
+   <li>Endless Space</li>
+   <li>Prey</li>
+   <li>Dead Space</li>
+  </random>
+ </template>
+</category>
+
+<category>
  <pattern>wer * <set name="berühmentePhysiker"></set></pattern>
  <template>Ich weiß wer das ist</template>
 </category>
