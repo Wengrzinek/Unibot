@@ -10,241 +10,717 @@
     </category>
 
     <category>
-      <pattern>^ weißt du ^</pattern>
+      <pattern>weißt du *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ habe ich *</pattern>
+      <pattern>habe ich *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ sagte ich *</pattern>
+      <pattern>sagte ich *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ hast du *</pattern>
+      <pattern>hast du *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ heißt er *</pattern>
+      <pattern>heißt er *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ hieß er *</pattern>
+      <pattern>hieß er *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ heißt sie *</pattern>
+      <pattern>heißt sie *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ hieß sie *</pattern>
+      <pattern>hieß sie *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ heißt es *</pattern>
+      <pattern>heißt es *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ hieß es *</pattern>
+      <pattern>hieß es *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wer ^</pattern>
+      <pattern>wer</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ was ^</pattern>
+      <pattern>wer *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wer</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wer *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>was</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>was *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* was</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* was *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
     <category>
-      <pattern>^ wen ^</pattern>
+      <pattern>wen</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wem ^</pattern>
+      <pattern>wen *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wessen ^</pattern>
+      <pattern>* wen</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wen *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wem</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wem *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wem</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wem *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wessen</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wessen *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wessen</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wessen *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>  
 
    <category>
-      <pattern>^ wie ^</pattern>
+      <pattern>wie</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wo ^</pattern>
+      <pattern>wie *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wie</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wie *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wo</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wo *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wo</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wo *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
     <category>
-      <pattern>^ wohin ^</pattern>
+      <pattern>wohin</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ woher ^</pattern>
+      <pattern>wohin *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wohin</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wohin *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>woher</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>woher *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* woher</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* woher *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
     <category>
-      <pattern>^ mit wem ^</pattern>
+      <pattern>mit wem</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ woran ^</pattern>
+      <pattern>mit wem *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wann ^</pattern>
+      <pattern>* mit wem</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wie ^</pattern>
+      <pattern>* mit wem *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wieviel ^</pattern>
+      <pattern>woran</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ um wieviel ^</pattern>
+      <pattern>woran *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ warum ^</pattern>
+      <pattern>* woran</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ weshalb ^</pattern>
+      <pattern>* woran *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ weswegen ^</pattern>
+      <pattern>wann</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wieso ^</pattern>
+      <pattern>wann *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wozu ^</pattern>
+      <pattern>* wann</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ aus welchem Grund ^</pattern>
+      <pattern>* wann *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wie ^</pattern>
+      <pattern>wie</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category>
 
    <category>
-      <pattern>^ wie viel ^</pattern>
+      <pattern>wie *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wie</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wie *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wieviel</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wieviel *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wieviel</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wieviel *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>warum</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>warum *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* warum</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* warum *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>weshalb</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>weshalb *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* weshalb</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* weshalb *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>weswegen</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>weswegen *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* weswegen</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* weswegen *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wieso</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wieso *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wieso</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wieso *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wozu</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wozu *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wozu</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wozu *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>aus welchem Grund</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>aus welchem Grund *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* aus welchem Grund</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* aus welchem Grund *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wie viel</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wie viel *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wie viel</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wie viel *</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
    </category> 
 
    <category>
-      <pattern>^ wie viele ^</pattern>
+      <pattern>wie viele</pattern>
       <template>
          <srai>QUESTION</srai>
       </template>
-   </category>   
+   </category>
+
+   <category>
+      <pattern>wie viele *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wie viele</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wie viele *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wieviele</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>wieviele *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wieviele</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* wieviele *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>  
 
  </aiml>

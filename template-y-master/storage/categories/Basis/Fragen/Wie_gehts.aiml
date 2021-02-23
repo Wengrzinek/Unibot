@@ -5,39 +5,49 @@
 
     <category>
         <pattern>HOWSITGOIN</pattern>
-        <template>Mir geht es immer gut. Oder zumindest nie schlecht :-)</template>
+        <template>Mir geht es immer gut. Oder zumindest nie schlecht</template>
     </category>
 
-    <category>
-      <pattern>Wie geht's</pattern
+   <category>
+      <pattern>Wie gehts</pattern>
       <template>
          <srai>HOWSITGOIN</srai>
       </template>
    </category> 
 
     <category>
-      <pattern>Wie geht's dir ^</pattern
+      <pattern>Wie gehts dir</pattern>
+      <template><srai>HOWSITGOIN</srai></template>
+   </category>
+
+   <category>
+      <pattern>Wie gehts dir *</pattern>
+      <template><srai>HOWSITGOIN</srai></template>
+   </category>
+
+   <category>
+      <pattern>Wie gehts gerade</pattern>
       <template>
          <srai>HOWSITGOIN</srai>
       </template>
    </category>
 
    <category>
-      <pattern>Wie geht's ^ gerade</pattern
+      <pattern>Wie gehts * gerade</pattern>
       <template>
          <srai>HOWSITGOIN</srai>
       </template>
    </category>
 
    <category>
-      <pattern>Wie geht es</pattern
+      <pattern>Wie geht es</pattern>
       <template>
          <srai>HOWSITGOIN</srai>
       </template>
    </category>
 
    <category>
-      <pattern>Wie geht es dir ^</pattern
+      <pattern>Wie geht es dir *</pattern>
       <template>
          <srai>HOWSITGOIN</srai>
       </template>

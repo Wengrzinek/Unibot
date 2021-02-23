@@ -2,7 +2,7 @@
 <aiml version="2.0">
 
     <category>
-        <pattern>^ Witz ^</pattern>
+        <pattern>JOKE</pattern>
         <template>
             <random>
                 <li>
@@ -13,10 +13,38 @@
                     Ich wollte gerade einen Russenwitz machen, aber jemand Stalingrad. 
                 </li>
                 <li>
-                    Welche sind die Teuersten Tomaten? Geldautomaten
+                    Welche sind die teuersten Tomaten? Geldau-Tomaten
                 </li>
             </random>
         </template>
     </category>
+
+    <category>
+      <pattern>Witz</pattern>
+      <template>
+         <srai>JOKE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* Witz</pattern>
+      <template>
+         <srai>JOKE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Witz *</pattern>
+      <template>
+         <srai>JOKE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* Witz *</pattern>
+      <template>
+         <srai>JOKE</srai>
+      </template>
+   </category>
 
 </aiml>

@@ -10,22 +10,42 @@
     </category>
 
     <category>
-        <pattern>Hallo ^</pattern>
+        <pattern>Hallo</pattern>
         <template><srai>HELLO</srai></template>
     </category>
 
     <category>
-        <pattern>Hey ^</pattern>
+        <pattern>Hallo *</pattern>
         <template><srai>HELLO</srai></template>
     </category>
 
     <category>
-        <pattern>Hi ^</pattern>
+        <pattern>Hey</pattern>
         <template><srai>HELLO</srai></template>
     </category>
 
     <category>
-        <pattern>Guten Tag ^</pattern>
+        <pattern>Hey *</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>Hi</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>Hi *</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>Guten Tag</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <category>
+        <pattern>Guten Tag *</pattern>
         <template><srai>HELLO</srai></template>
     </category>
 
@@ -35,42 +55,84 @@
    </category>
    
    <category>
-      <pattern>Tschüss ^</pattern>
+      <pattern>Tschüss</pattern>
       <template>
          <srai>BYE</srai>
       </template>
    </category>
 
    <category>
-      <pattern>Tschau ^</pattern>
+      <pattern>Tschüss *</pattern>
       <template>
          <srai>BYE</srai>
       </template>
    </category>
 
    <category>
-      <pattern>Tschüssi ^</pattern>
+      <pattern>Tschau</pattern>
       <template>
          <srai>BYE</srai>
       </template>
    </category>
 
    <category>
-      <pattern>Ciao ^</pattern>
+      <pattern>Tschau *</pattern>
       <template>
          <srai>BYE</srai>
       </template>
    </category>
 
    <category>
-      <pattern>Auf Wiedersehen ^</pattern>
+      <pattern>Tschüssi</pattern>
       <template>
          <srai>BYE</srai>
       </template>
    </category>
 
    <category>
-      <pattern>Bis dann ^</pattern>
+      <pattern>Tschüssi *</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Ciao</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Ciao *</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Auf Wiedersehen</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Auf Wiedersehen *</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Bis dann</pattern>
+      <template>
+         <srai>BYE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>Bis dann *</pattern>
       <template>
          <srai>BYE</srai>
       </template>
