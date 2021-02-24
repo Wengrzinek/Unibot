@@ -6,8 +6,8 @@
             <random>
                 <li>Die ISS umrundet die Erde in nur 93 Minuten</li>
                 <li>Das bekannte Universum hat über 2 Billionen (10^12) Galaxien</li>
-                <li>Die Drake-Gleichung dient zur Abschätzung der Anzahl technisch intelligenter Zivilationen in der Milchstraße</li>
-                <li>Voyager 1,eine Raumsonde aus den 70ern, ist das am weitestens von der Erde entfernte menschengebautes Objekt</li>
+                <li>Die Drake-Gleichung dient zur Abschätzung der Anzahl technisch intelligenter Zivilisationen in der Milchstraße</li>
+                <li>Voyager 1,eine Raumsonde aus den 70ern, ist das am weitestens von der Erde entfernte menschengebaute Objekt</li>
                 <li>Kleine Sonnen leben in der Regel länger als große</li>
                 <li>Die Erde braucht für eine Umdrehung um sich selbst nur 23 Stunden, 56 Minuten und 5 Sekunden</li>
                 <li>Schwarze Löcher haben eine so starke Gravitation, dass nicht einmal Licht seiner Masse entkommen kann</li>
@@ -15,18 +15,18 @@
                 <li>Der Urknall wird als Beginn des Universums gesehen</li>
                 <li>Die Mehrheit der Galaxien entfernen sich langsam voneinander</li>
                 <li>Auf Saturn und Jupiter regnet es Diamanten</li>
-                <li>Die Erde ist der einzige Planet unseres Sonnensystems der nicht nach einem römischen Gottheit benannt ist</li>
-                <li>Der Pluto hat 2006 seinen Status als Planet verloren. Grund dafür: Die Definition von Planet wurde geändert</li>
-                <li>Ein "Mond Tag" dauert etwa 27 Erden-Tage</li>
-                <li>Man kann die chinesische Mauer weder vom Mond noch vom Weltraum mit bloßem Auge sehen</li>
+                <li>Die Erde ist der einzige Planet unseres Sonnensystems, der nicht nach einer römischen Gottheit benannt ist</li>
+                <li>Der Pluto hat 2006 seinen Status als Planet verloren. Grund dafür: Die Definition eines Planeten wurde geändert</li>
+                <li>Ein "Mond-Tag" dauert etwa 27 Erden-Tage</li>
+                <li>Man kann die chinesische Mauer weder vom Mond noch vom Weltraum aus mit bloßem Auge sehen</li>
                 <li>Der Merkur hat nur eine dünne Schicht Gestein über einem Rest aus Eisen</li>
-                <li>Der EVA (Extra-Vehicular Activity) Anzug von Astronauten im Weltall kostet etwa 12 Millionen Dollar in Herstellung</li>
+                <li>Der EVA (Extra-Vehicular Activity) -Anzug von Astronauten im Weltall kostet etwa 12 Millionen Dollar in Herstellung</li>
                 <li>Die Sonne wirkt nur wegen der Erdatmosphäre gelb; vom Mond aus sieht die Sonne weiß aus</li>
-                <li>Die Sonne macht mehr als 99% der Masse unseren Sonnensystems aus</li>
+                <li>Die Sonne macht mehr als 99% der Masse unseres Sonnensystems aus</li>
                 <li>Es gibt mehr Bäume auf der Erde als Sterne in der Milchstraße</li>
                 <li>Die Venus braucht 243 Erden-Tage um sich einmal um ihre eigene Achse zu drehen, aber 225 Erden-Tage
                 für einen Umlauf um die Sonne</li>
-                <li>Es exisitert keine Erosion auf dem Mond. Niel Armstrong's Fußabdrücke könnten noch in Millionen von Jahren gesehen werden</li>
+                <li>Es exisitert keine Erosion auf dem Mond. Neil Armstrongs Fußabdrücke könnten noch in Millionen von Jahren gesehen werden</li>
                 <li>Asien ist flächenmäßig größer als der Mond</li>
             </random>
         </template>
@@ -92,9 +92,9 @@
     <category>
         <pattern>BUCH</pattern>
         <template>
-            Das wäre ein Buch was ich empfehlen könnte:
+            Das wäre ein Buch, das ich empfehlen könnte:
             <random>
-                <li>Die Illustrierte Geschichte der Zeit, von Stephen Hawking</li>
+                <li>Die Illustrierte Kurze Geschichte der Zeit, von Stephen Hawking</li>
                 <li>Das Universum in der Nusschale, von Stephen Hawking</li>
                 <li>Die verborgene Wirklichkeit, von Brian Greene</li>
                 <li>Die Magie der Nacht, von Trinh Xuan Thuan</li>
@@ -123,7 +123,7 @@
     <category>
         <pattern>FILM</pattern>
         <template>
-            Das wäre ein Film den ich empfehlen könnte:
+            Das wäre ein Film, den ich empfehlen könnte:
             <random>
                  <li>Interstellar</li>
                 <li>Star Wars</li>
