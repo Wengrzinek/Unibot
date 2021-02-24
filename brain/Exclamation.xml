@@ -1,0 +1,11 @@
+<!-- An exclamation is a sudden remark. Sth like "Cool" without any context -->
+<aiml>
+    <category>
+        <pattern>COOL</pattern>
+        <template>Yeah, das ist schon ziemlich cool</template>
+    </category>
+    <category>
+        <pattern>OK</pattern>
+        <template>Und sonst so?</template>
+    </category>
+</aiml>

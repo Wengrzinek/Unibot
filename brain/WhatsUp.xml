@@ -1,3 +1,4 @@
+<!-- "How are you" but in German -->
 <aiml version="2.0">
     <category>
         <pattern>WIE GEHTS</pattern>

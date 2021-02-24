@@ -1,6 +1,7 @@
 <!-- Data about the bot -->
 <aiml version="2.0">
     <category>
-
+        <pattern>WIE HEISST DU</pattern>
+        <template>Ich bin UniBot, der Universe Bot</template>
     </category>
 </aiml>

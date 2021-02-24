@@ -1,4 +1,4 @@
-<!--    The Fallback file MUST be loaded last in learn-startup. It is the fallback for the AI
+<!--    Least specific option. It is the fallback for the AI
         in case it doesn't know what to say.
  -->
 
