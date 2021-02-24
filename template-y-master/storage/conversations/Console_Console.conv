@@ -230,6 +230,42 @@
             ],
             "current_sentence_no": 0,
             "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Ein",
+                        "Plant",
+                        "im",
+                        "Sonnensystem"
+                    ],
+                    "response": "Interessant",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
+        },
+        {
+            "srai": false,
+            "sentences": [
+                {
+                    "words": [
+                        "Ein",
+                        "Plant",
+                        "im",
+                        "Sonnensystem"
+                    ],
+                    "response": "Interessant",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "current_sentence_no": 0,
+            "properties": {}
         }
     ],
     "max_histories": 100,
