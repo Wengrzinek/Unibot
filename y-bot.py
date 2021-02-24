@@ -6,6 +6,7 @@ import discord
 import message_handler
 import asyncio
 import random
+import wikipedia
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from events.base_event              import BaseEvent
@@ -32,6 +33,9 @@ def main():
     kernel = aiml.Kernel()
     kernel.learn("learn-startup.xml")
     kernel.respond("LOAD AIML")
+
+    # Wikipeida init - Set language to German
+    wikipedia.set_lang("de")
 
     # Define event handlers for the client
     # on_ready may be called multiple times in the event of a reconnect,
@@ -88,10 +92,21 @@ def main():
         if message.content is None:
             return
 
-        if message.content == "!Help":
-            response = "TODO help"
-            await channel.send(response)
+        if kernel.respond(message.content) == "s":
             return
+
+        if "Y_QUERY" in kernel.respond(message.content):
+            msg = message.content
+            query = msg[8:]
+            await channel.send("Okay, ich habe das Folgende dazu auf Wikipedia gefunden: ")
+            try:
+                response = wikipedia.summary(query)
+                await channel.send(response)
+                return
+            except wikipedia.DisambiguationError as e:
+                print(e.options)
+                await channel.send(wikipedia.summary(e.options[0]))
+                return
         else:
             response = kernel.respond(message.content)
             await asyncio.sleep(random.randint(0, 2))

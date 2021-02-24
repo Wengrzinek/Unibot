@@ -1,0 +1,38 @@
+<aiml>
+
+    <category>
+        <pattern>ERZÄHLE MIR ETWAS ÜBER *</pattern>
+        <template>
+            Y_QUERY <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WAS IST *</pattern>
+        <template>
+            Y_QUERY <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WAS IST EIN *</pattern>
+        <template>
+            Y_QUERY <star/>
+        </template>
+    </category>
+
+        <category>
+        <pattern>WAS IST EINE *</pattern>
+        <template>
+            Y_QUERY <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WER IST *</pattern>
+        <template>
+            Y_QUERY <star/>
+        </template>
+    </category>
+
+</aiml>
