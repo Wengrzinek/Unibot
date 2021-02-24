@@ -29,4 +29,32 @@
         </template>
     </category>
 
+    <category>
+        <pattern>HALO</pattern>
+        <template>
+            <srai>HI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HALO *</pattern>
+        <template>
+            <srai>HI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TCHÜS</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TCHÜS *</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
 </aiml>

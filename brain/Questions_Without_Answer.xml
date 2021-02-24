@@ -1,0 +1,484 @@
+<!-- Questions, that can't be answered (but are at least identified as questions) -->
+<aiml>
+
+    <category>
+        <pattern>QUESTION</pattern>
+        <template>Das weiß ich leider nicht</template>
+    </category>
+
+   <category>
+      <pattern>WER</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WER *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WER</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WER *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WAS</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WAS *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WAS</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WAS *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+    <category>
+      <pattern>WEN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WEN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WEN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WEN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WEM</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WEM *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WEM</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WEM *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WESSEN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WESSEN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WESSEN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WESSEN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>  
+
+   <category>
+      <pattern>WIE</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WIE *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WIE</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WIE *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WO</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WO *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WO</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WO *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+    <category>
+      <pattern>WOHIN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WOHIN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WOHIN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WOHIN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WOHER</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WOHER *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WOHER</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WOHER *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WORAN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WORAN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WORAN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WORAN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WANN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WANN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WANN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WANN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WIEVIEL</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WIEVIEL *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WIEVIEL</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WIEVIEL *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WARUM</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WARUM *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WARUM</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WARUM *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WESHALB</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WESHALB *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WESHALB</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WESHALB *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WESWEGEN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WESWEGEN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WESWEGEN</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WESWEGEN *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WIESO</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WIESO *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WIESO</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WIESO *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WOZU</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WOZU *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WOZU</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* WOZU *</pattern>
+      <template>
+         <srai>QUESTION</srai>
+      </template>
+   </category>
+ </aiml>
