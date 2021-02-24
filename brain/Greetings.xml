@@ -1,8 +1,29 @@
 <!-- Greetings, to say "Hi" et cetera -->
 
-<aiml>
+<aiml vversion="2.0">
     <category>
         <pattern>HELLO</pattern>
+        <template>
+            <srai>HI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HELLO *</pattern>
+        <template>
+            <srai>HI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HELLO</pattern>
+        <template>
+            <srai>HI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO *</pattern>
         <template>
             <srai>HI</srai>
         </template>
@@ -22,17 +43,66 @@
         </template>
     </category>
 
-    <category>
-        <pattern>GUTEN TAG</pattern>
+        <category>
+        <pattern>* HALLO *</pattern>
         <template>
             <srai>HI</srai>
         </template>
     </category>
 
     <category>
-        <pattern>GUTEN TAG *</pattern>
+        <pattern>* HALLO</pattern>
         <template>
             <srai>HI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GUTEN TAG</pattern>
+        <template>
+            <srai>GUTEN TAG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* GUTEN TAG</pattern>
+        <template>
+            <srai>GUTEN TAG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* GUTEN TAG *</pattern>
+        <template>
+            <srai>GUTEN TAG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GUTEN TAG *</pattern>
+        <template>
+            <srai>GUTEN TAG</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GUTEN Abend</pattern>
+        <template>
+            <srai>GUTEN ABEND</srai>
+        </template>
+    </category>
+
+        <category>
+        <pattern>GUTEN Abend *</pattern>
+        <template>
+            <srai>GUTEN ABEND</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* GUTEN Abend</pattern>
+        <template>
+            <srai>GUTEN ABEND</srai>
         </template>
     </category>
 
@@ -43,7 +113,7 @@
         </template>
     </category>
 
-    <category>
+      <category>
         <pattern>EI GUDE *</pattern>
         <template>
             <srai>HI</srai>
@@ -65,7 +135,28 @@
     </category>
 
     <category>
+        <pattern>* HEY</pattern>
+        <template>
+            <srai>HI</srai>
+        </template>
+    </category>
+
+    <category>
         <pattern>HI *</pattern>
+        <template>
+            <srai>HI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HI</pattern>
+        <template>
+            <srai>HI</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* HI *</pattern>
         <template>
             <srai>HI</srai>
         </template>
@@ -84,5 +175,23 @@
         </template>
     </category>
 
+    <category>
+        <pattern>GUTEN ABEND</pattern>
+        <template>
+                Guten Abend, ich hoffe Ihr Tag war angenehm
+        </template>
+    </category>
+
+    <category>
+        <pattern>GUTEN TAG</pattern>
+        <template>
+            <random>
+                <li>Guten Tag</li>
+                <li>Auch Ihnen einen guten Tag</li>
+                <li>Ja, es ist wirklich ein guter Tag</li>
+            </random>
+
+        </template>
+    </category>
 
 </aiml>

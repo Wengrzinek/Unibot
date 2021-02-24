@@ -3,7 +3,7 @@
  -->
 
 
-<aiml>
+<aiml version="2.0">
     <category>
         <pattern>*</pattern>
         <template>
@@ -11,6 +11,7 @@
                 <li>Hmm?</li>
                 <li>Sorry, das habe ich jetzt nicht verstanden.</li>
                 <li>Wie bitte?</li>
+                <li>Sorry, AIML ist ein wenig beschränkt</li>
                 <!-- TODO mehr -->
             </random>
         </template>

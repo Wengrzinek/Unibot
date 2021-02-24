@@ -1,6 +1,6 @@
 <!-- Valedations are the oposite of greetings. So...this is the file to say "GoodBye" et cetera -->
 
-<aiml>
+<aiml vversion="2.0">
     <category>
         <pattern>CIAO</pattern>
         <template>

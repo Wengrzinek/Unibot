@@ -9,7 +9,7 @@ COMMAND_PREFIX = "!"
 BOT_TOKEN = "ODEwNjA2ODIzMzA3NzM5MTc2.YCmGbw.NNvoDwgCLqL1y-mqU-gKOpOQs_E"
 
 # The channel name. Set it to nothing to enable the bot in every channel
-CHANNEL_NAME = "talk-one"  # talk-one will be the bot channel, talk-two will be the human channel
+CHANNEL_NAME = "bot-1"  # bot-1 will be the default bot channel
 
 # The now playing game. Set this to anything false-y ("", None) to disable it
 NOW_PLAYING = COMMAND_PREFIX + "commands"

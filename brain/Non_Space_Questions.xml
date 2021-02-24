@@ -1,0 +1,22 @@
+<aiml>
+    <category>
+        <pattern>AIML</pattern>
+        <template> AIML ist die Sprache auf der ich basiere. Das steht für "Artificial Intelligence Markup Language"</template>
+    </category>
+
+    <category>
+        <pattern>* AIML *</pattern>
+        <template><srai>AIML</srai></template>
+    </category>
+
+    <category>
+        <pattern>AIML *</pattern>
+        <template><srai>AIML</srai></template>
+    </category>
+
+    <category>
+        <pattern>* AIML</pattern>
+        <template><srai>AIML</srai></template>
+    </category>
+
+</aiml>
