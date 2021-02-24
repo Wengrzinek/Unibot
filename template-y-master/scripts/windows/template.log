@@ -1290,3 +1290,67 @@ hält sein Geweih nachts fest.".]
 2021-02-24 10:30:37,086  root       DEBUG   Writing conversation to [..\..\storage/conversations\Console_Console.conv]
 2021-02-24 10:30:37,087  root       DEBUG   [Console] [bot] [brain] [Console] - Event triggered [QUESTION_ASKED]
 2021-02-24 10:30:37,087  root       DEBUG   [Console] - Console: [Der Urknall wird als Beginn des Universums gesehen.]
+2021-02-24 11:02:15,890  root       DEBUG   [Console] [bot] [brain] [Console] - ##########################################################################################
+2021-02-24 11:02:15,890  root       DEBUG   [Console] [bot] [brain] [Console] - Question (Console): Ein Plant im Sonnensystem
+2021-02-24 11:02:15,891  root       DEBUG   [Console] [bot] [brain] [Console] - Normalising input from [Ein Plant im Sonnensystem] to [Ein Plant im Sonnensystem]
+2021-02-24 11:02:15,891  root       DEBUG   [Console] [bot] [brain] [Console] - Removing punctuation...
+2021-02-24 11:02:15,891  root       DEBUG   [Console] [bot] [brain] [Console] - Pre Processed (Console): Ein Plant im Sonnensystem
+2021-02-24 11:02:15,891  root       DEBUG   [Console] [bot] [brain] [Console] - Retrieving conversation for client Console
+2021-02-24 11:02:15,891  root       DEBUG   [Console] [bot] [brain] [Console] - Retrieving conversation for client Console
+2021-02-24 11:02:15,892  root       INFO    [Console] [bot] [brain] [Console] - Topic pattern = [*]
+2021-02-24 11:02:15,892  root       INFO    [Console] [bot] [brain] [Console] - That pattern = [der Urknall wird als Beginn des Universums gesehen]
+2021-02-24 11:02:15,892  root       DEBUG   [Console] [bot] [brain] [Console] - AIML Parser matching sentence [Ein Plant im Sonnensystem], topic=[*], that=[der Urknall wird als Beginn des Universums gesehen] 
+2021-02-24 11:02:15,892  root       DEBUG   [Console] [bot] [brain] [Console] - Matching [Ein Plant im Sonnensystem __TOPIC__ * __THAT__ der Urknall wird als Beginn des Universums gesehen]
+2021-02-24 11:02:15,892  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched Ein
+2021-02-24 11:02:15,892  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched Plant
+2021-02-24 11:02:15,892  root       DEBUG   [Console] [bot] [brain] [Console] -   No children, consume words until next break point
+2021-02-24 11:02:15,893  root       DEBUG   [Console] [bot] [brain] [Console] -     No match for im, trying another path
+2021-02-24 11:02:15,893  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched im
+2021-02-24 11:02:15,893  root       DEBUG   [Console] [bot] [brain] [Console] -     No match for Sonnensystem, trying another path
+2021-02-24 11:02:15,893  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched Sonnensystem
+2021-02-24 11:02:15,893  root       DEBUG   [Console] [bot] [brain] [Console] -     No match for __TOPIC__, trying another path
+2021-02-24 11:02:15,893  root       DEBUG   [Console] [bot] [brain] [Console] -   Found a topic at the wrong place....
+2021-02-24 11:02:15,893  root       DEBUG   [Console] [bot] [brain] [Console] - No match for Ein, trying another path
+2021-02-24 11:02:15,893  root       DEBUG   [Console] [bot] [brain] [Console] - Retrieving conversation for client Console
+2021-02-24 11:02:15,893  root       INFO    [Console] [bot] [brain] [Console] - Topic pattern = [*]
+2021-02-24 11:02:15,894  root       INFO    [Console] [bot] [brain] [Console] - That pattern = [der Urknall wird als Beginn des Universums gesehen]
+2021-02-24 11:02:15,894  root       DEBUG   [Console] [bot] [brain] [Console] - AIML Parser matching sentence [YEMPTY], topic=[*], that=[der Urknall wird als Beginn des Universums gesehen] 
+2021-02-24 11:02:15,894  root       DEBUG   [Console] [bot] [brain] [Console] - Matching [YEMPTY __TOPIC__ * __THAT__ der Urknall wird als Beginn des Universums gesehen]
+2021-02-24 11:02:15,894  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched YEMPTY
+2021-02-24 11:02:15,894  root       DEBUG   [Console] [bot] [brain] [Console] -   Found a topic at the wrong place....
+2021-02-24 11:02:15,894  root       DEBUG   [Console] [bot] [brain] [Console] - No match for YEMPTY, trying another path
+2021-02-24 11:02:15,894  root       DEBUG   Writing conversation to [..\..\storage/conversations\Console_Console.conv]
+2021-02-24 11:02:15,896  root       DEBUG   [Console] [bot] [brain] [Console] - Event triggered [QUESTION_ASKED]
+2021-02-24 11:02:15,896  root       DEBUG   [Console] - Console: [Interessant.]
+2021-02-24 11:02:21,825  root       DEBUG   [Console] [bot] [brain] [Console] - ##########################################################################################
+2021-02-24 11:02:21,825  root       DEBUG   [Console] [bot] [brain] [Console] - Question (Console): Ein Plant im Sonnensystem?
+2021-02-24 11:02:21,825  root       DEBUG   [Console] [bot] [brain] [Console] - Normalising input from [Ein Plant im Sonnensystem?] to [Ein Plant im Sonnensystem?]
+2021-02-24 11:02:21,825  root       DEBUG   [Console] [bot] [brain] [Console] - Removing punctuation...
+2021-02-24 11:02:21,827  root       DEBUG   [Console] [bot] [brain] [Console] - Pre Processed (Console): Ein Plant im Sonnensystem?
+2021-02-24 11:02:21,827  root       DEBUG   [Console] [bot] [brain] [Console] - Retrieving conversation for client Console
+2021-02-24 11:02:21,827  root       DEBUG   [Console] [bot] [brain] [Console] - Retrieving conversation for client Console
+2021-02-24 11:02:21,827  root       INFO    [Console] [bot] [brain] [Console] - Topic pattern = [*]
+2021-02-24 11:02:21,827  root       INFO    [Console] [bot] [brain] [Console] - That pattern = [Interessant]
+2021-02-24 11:02:21,827  root       DEBUG   [Console] [bot] [brain] [Console] - AIML Parser matching sentence [Ein Plant im Sonnensystem], topic=[*], that=[Interessant] 
+2021-02-24 11:02:21,827  root       DEBUG   [Console] [bot] [brain] [Console] - Matching [Ein Plant im Sonnensystem __TOPIC__ * __THAT__ Interessant]
+2021-02-24 11:02:21,828  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched Ein
+2021-02-24 11:02:21,828  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched Plant
+2021-02-24 11:02:21,828  root       DEBUG   [Console] [bot] [brain] [Console] -   No children, consume words until next break point
+2021-02-24 11:02:21,828  root       DEBUG   [Console] [bot] [brain] [Console] -     No match for im, trying another path
+2021-02-24 11:02:21,828  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched im
+2021-02-24 11:02:21,828  root       DEBUG   [Console] [bot] [brain] [Console] -     No match for Sonnensystem, trying another path
+2021-02-24 11:02:21,828  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched Sonnensystem
+2021-02-24 11:02:21,829  root       DEBUG   [Console] [bot] [brain] [Console] -     No match for __TOPIC__, trying another path
+2021-02-24 11:02:21,829  root       DEBUG   [Console] [bot] [brain] [Console] -   Found a topic at the wrong place....
+2021-02-24 11:02:21,829  root       DEBUG   [Console] [bot] [brain] [Console] - No match for Ein, trying another path
+2021-02-24 11:02:21,829  root       DEBUG   [Console] [bot] [brain] [Console] - Retrieving conversation for client Console
+2021-02-24 11:02:21,829  root       INFO    [Console] [bot] [brain] [Console] - Topic pattern = [*]
+2021-02-24 11:02:21,829  root       INFO    [Console] [bot] [brain] [Console] - That pattern = [Interessant]
+2021-02-24 11:02:21,829  root       DEBUG   [Console] [bot] [brain] [Console] - AIML Parser matching sentence [YEMPTY], topic=[*], that=[Interessant] 
+2021-02-24 11:02:21,829  root       DEBUG   [Console] [bot] [brain] [Console] - Matching [YEMPTY __TOPIC__ * __THAT__ Interessant]
+2021-02-24 11:02:21,829  root       DEBUG   [Console] [bot] [brain] [Console] -   Wildcard * matched YEMPTY
+2021-02-24 11:02:21,830  root       DEBUG   [Console] [bot] [brain] [Console] -   Found a topic at the wrong place....
+2021-02-24 11:02:21,830  root       DEBUG   [Console] [bot] [brain] [Console] - No match for YEMPTY, trying another path
+2021-02-24 11:02:21,830  root       DEBUG   Writing conversation to [..\..\storage/conversations\Console_Console.conv]
+2021-02-24 11:02:21,831  root       DEBUG   [Console] [bot] [brain] [Console] - Event triggered [QUESTION_ASKED]
+2021-02-24 11:02:21,831  root       DEBUG   [Console] - Console: [Interessant.]
