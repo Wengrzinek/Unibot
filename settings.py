@@ -12,7 +12,7 @@ BOT_TOKEN = "ODEwNjA2ODIzMzA3NzM5MTc2.YCmGbw.NNvoDwgCLqL1y-mqU-gKOpOQs_E"
 CHANNEL_NAME = "bot-1"  # bot-1 will be the default bot channel
 
 # The now playing game. Set this to anything false-y ("", None) to disable it
-NOW_PLAYING = COMMAND_PREFIX + "commands"
+NOW_PLAYING = ""
 
 # Base directory. Feel free to use it if you want.
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))

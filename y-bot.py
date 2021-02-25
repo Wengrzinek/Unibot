@@ -8,10 +8,12 @@ import asyncio
 import random
 import wikipedia
 
+
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from events.base_event              import BaseEvent
-from events                         import *
-from multiprocessing                import Process
+from events.base_event import BaseEvent
+from events import *
+from multiprocessing import Process
+from discord.ext.commands import Bot
 
 # Set to remember if the bot is already running, since on_ready may be called
 # more than once on reconnects
@@ -37,9 +39,16 @@ def main():
     # Wikipeida init - Set language to German
     wikipedia.set_lang("de")
 
+    bot = Bot('!')
+
     # Define event handlers for the client
     # on_ready may be called multiple times in the event of a reconnect,
     # hence the running flag
+
+    @bot.command()
+    async def test(ctx):
+        await ctx.send("This is tts", tts=True)
+
     @client.event
     async def on_ready():
         if this.running:
@@ -59,7 +68,7 @@ def main():
         n_ev = 0
         for ev in BaseEvent.__subclasses__():
             event = ev()
-            sched.add_job(event.run, 'interval', (client,), 
+            sched.add_job(event.run, 'interval', (client,),
                           minutes=event.interval_minutes)
             n_ev += 1
         sched.start()
@@ -71,8 +80,8 @@ def main():
         if text.startswith(settings.COMMAND_PREFIX) and text != settings.COMMAND_PREFIX:
             cmd_split = text[len(settings.COMMAND_PREFIX):].split()
             try:
-                await message_handler.handle_command(cmd_split[0].lower(), 
-                                      cmd_split[1:], message, client)
+                await message_handler.handle_command(cmd_split[0].lower(),
+                                                     cmd_split[1:], message, client)
             except:
                 print("Error while handling message", flush=True)
                 raise
@@ -82,7 +91,6 @@ def main():
     @client.event
     async def on_message(message):
         channel = message.channel
-
         if message.author.bot or str(message.channel) != settings.CHANNEL_NAME:
             return
 
@@ -98,33 +106,38 @@ def main():
         if "Y_QUERY" in kernel.respond(message.content):
             msg = message.content
             query = msg[8:]
-            await channel.send("Okay, ich habe das Folgende dazu auf Wikipedia gefunden: ")
+            print(query)
             try:
+                await channel.send("Okay, ich habe das Folgende dazu auf Wikipedia gefunden: ")
                 response = wikipedia.summary(query)
                 await channel.send(response)
                 return
             except wikipedia.DisambiguationError as e:
-                print(e.options)
+                # await channel.send("Okay, ich habe das Folgende dazu auf Wikipedia gefunden: ")
                 await channel.send(wikipedia.summary(e.options[0]))
+                return
+            except wikipedia.PageError as e:
+                # await channel.send("Okay, ich habe das Folgende dazu auf Wikipedia gefunden: ")
+                response = wikipedia.summary(wikipedia.suggest(query))
+                await channel.send(response)
+                return
+
+            except discord.HTTPException as e:
+                """
+                print(query.split(' ',1)[1])
+                await channel.send(wikipedia.summary(msg.split(' ',1)[1]))
+                
+                """
+                await channel.send("Okay ich habe doch nichts auf Wikipedia gefunden. Irgendwas ist da schief gelaufen")
                 return
         else:
             response = kernel.respond(message.content)
             await asyncio.sleep(random.randint(0, 2))
             await channel.send(response)
-    #
-    """
-    @client.event
-    async def on_message(message):
-        await common_handle_message(message)
-
-    @client.event
-    async def on_message_edit(before, after):
-        await common_handle_message(after)
-        
-    """
 
     # Finally, set the bot running
     client.run(settings.BOT_TOKEN)
+
 
 ###############################################################################
 

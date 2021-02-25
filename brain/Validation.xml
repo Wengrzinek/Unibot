@@ -86,62 +86,6 @@
     </category>
 
     <category>
-        <pattern>GUT</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* GUT</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>GUT *</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* GUT *</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>SCHÖN</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* SCHÖN</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>SCHÖN *</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* SCHÖN *</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
         <pattern>BYE</pattern>
         <template>
             <random>
@@ -154,13 +98,4 @@
         </template>
     </category>
 
-    <category>
-        <pattern>NICE</pattern>
-        <template>
-            <random>
-                <li>Das ist schön</li>
-                <li>Freut mich</li>
-            </random>
-        </template>
-    </category>
 </aiml>

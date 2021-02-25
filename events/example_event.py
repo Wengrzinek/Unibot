@@ -16,6 +16,7 @@ class ExampleEvent(BaseEvent):
 
     # Override the run() method
     # It will be called once every {interval_minutes} minutes
+    """
     async def run(self, client):
         now = datetime.now()
 
@@ -26,3 +27,5 @@ class ExampleEvent(BaseEvent):
 
         channel = get_channel(client, "general")
         await channel.send(msg)
+        
+     dcvsf"""

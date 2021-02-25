@@ -120,6 +120,21 @@
         <template><srai>BUCH</srai></template>
     </category>
 
+        <category>
+        <pattern>* BÜCHER</pattern>
+        <template><srai>BUCH</srai></template>
+    </category>
+
+    <category>
+        <pattern>BÜCHER *</pattern>
+        <template><srai>BUCH</srai></template>
+    </category>
+
+    <category>
+        <pattern>* BÜCHER *</pattern>
+        <template><srai>BUCH</srai></template>
+    </category>
+
     <category>
         <pattern>FILM</pattern>
         <template>
@@ -147,6 +162,21 @@
 
     <category>
         <pattern>FILM *</pattern>
+        <template><srai>FILM</srai></template>
+    </category>
+
+        <category>
+        <pattern>* FILME</pattern>
+        <template><srai>FILM</srai></template>
+    </category>
+
+    <category>
+        <pattern>* FILME *</pattern>
+        <template><srai>FILM</srai></template>
+    </category>
+
+    <category>
+        <pattern>FILME *</pattern>
         <template><srai>FILM</srai></template>
     </category>
 

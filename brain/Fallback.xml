@@ -9,9 +9,18 @@
         <template>
             <random>
                 <li>Hmm?</li>
-                <li>Sorry, das habe ich jetzt nicht verstanden.</li>
+                <li>Sorry, das habe ich jetzt nicht verstanden</li>
                 <li>Wie bitte?</li>
                 <li>Sorry, AIML ist ein wenig beschränkt</li>
+                <li>Davon weiß ich nichts. Ich beschäftige mich auch mehr mit dem Weltraum als mit irgendwas anderem</li>
+                <li>Keine Ahnung was du mir damit sagen willst</li>
+                <li>Uhm...nein?</li>
+                <li>Uhm...ja?</li>
+                <li>Frag mich doch lieber etwas über das Weltraum</li>
+                <li>Frag mich doch lieber nach Weltraumfakten</li>
+                <li>Das sagt mir jetzt nichts</li>
+                <li>Das habe ich jetzt nicht verstanden. Vielleicht willst du das anders formulieren?</li>
+                <li>Dazu kann ich nichts sagen</li>
             </random>
         </template>
     </category>

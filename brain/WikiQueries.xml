@@ -1,18 +1,6 @@
 <aiml>
 
-    <category>
-        <pattern>ERZÄHLE MIR ETWAS ÜBER *</pattern>
-        <template>
-            Y_QUERY <star/>
-        </template>
-    </category>
 
-    <category>
-        <pattern>WAS IST *</pattern>
-        <template>
-            Y_QUERY <star/>
-        </template>
-    </category>
 
     <category>
         <pattern>WAS IST EIN *</pattern>
@@ -30,6 +18,27 @@
 
     <category>
         <pattern>WER IST *</pattern>
+        <template>
+            Y_QUERY <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WER WAR *</pattern>
+        <template>
+            Y_QUERY <star/>
+        </template>
+    </category>
+
+       <category>
+        <pattern>WAS IST *</pattern>
+        <template>
+            Y_QUERY <star/>
+        </template>
+    </category>
+
+        <category>
+        <pattern>WAS WAR *</pattern>
         <template>
             Y_QUERY <star/>
         </template>
