@@ -1,0 +1,50 @@
+<!--
+The jokes that Unibot can say. For some reason, they always include jokes to any sort of bot.
+-->
+
+<aiml version="2.0">
+    <category>
+        <pattern>WITZ</pattern>
+        <template>
+            <random>
+                <li>Warum steht ein Pilz im Wald? Weil Tannen zapfen.</li>
+                <li>Treffen sich zwei Jäger. Beide tot.</li>
+                <li>Was ist krumm, vollständig und normiert? Ein Bananachraum.</li>
+                <li>Was macht ein Clown im Büro? Faxen.</li>
+                <li>Warum fliegen Fliegen nicht in die Kirche? Weil sie Insekten sind.</li>
+                <li>Witze? Im Deutschen gibt es doch gar keine guten Witze...</li>
+                <li>Der BER Flughafen.</li>
+                <li>Was macht der Pirat am Computer? Er drückt die ENTER-Taste.</li>
+                <li>Wie viele Kartoffeln braucht man um einen Iren zu töten? Keine.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WITZ *</pattern>
+        <template>
+            <srai>WITZ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* WITZ</pattern>
+        <template>
+            <srai>WITZ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* WITZ *</pattern>
+        <template>
+            <srai>WITZ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern> * WITZIGES</pattern>
+        <template>
+            <srai>WITZ</srai>
+        </template>
+    </category>
+</aiml>

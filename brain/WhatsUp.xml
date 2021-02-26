@@ -1,0 +1,89 @@
+<!--
+"How are you" file.
+This doesn't seem to work for some reason.
+-->
+<aiml version="2.0">
+    <category>
+        <pattern>WIE GEHTS</pattern>
+        <template>
+            <random>
+                <li> Mir geht es immer gut. Oder zumindest nie schlecht.</li>
+                <li> Mir gehts okay. Und dir?</li>
+                <li> Alles gut soweit. Wie ist es bei dir?</li>
+                <li> Bei mir ist alles ganz inordnung.</li>
+                <li> Mir geht's ganz ok. Danke der Nachfrage.</li>
+            </random>
+           </template>
+    </category>
+
+   <category>
+      <pattern>WIE GEHTS *</pattern>
+      <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+   </category>
+
+    <category>
+      <pattern>WIE GEHTS</pattern>
+      <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+   </category>
+
+    <category>
+      <pattern>* WIE GEHTS</pattern>
+      <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+   </category>
+
+    <category>
+      <pattern>* WIE GEHTS *</pattern>
+      <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>WIE GEHT ES DIR *</pattern>
+      <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+   </category>
+
+    <category>
+      <pattern>WIE GEHT ES DIR</pattern>
+      <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+   </category>
+
+    <category>
+      <pattern>WIE GEHT ES DIR</pattern>
+      <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+   </category>
+
+    <category>
+        <pattern>ALLES OK *</pattern>
+        <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+    </category>
+
+        <category>
+        <pattern>ALLES KLAR *</pattern>
+        <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+    </category>
+
+        <category>
+        <pattern>ALLES GUT *</pattern>
+        <template>
+         <srai>WIE GEHTS</srai>
+      </template>
+    </category>
+
+ </aiml>

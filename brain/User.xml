@@ -1,0 +1,100 @@
+<!--
+Data about the user. It uses the <set></set> tags to store some user data.
+-->
+<aiml>
+    <!-- USER SET -->
+    <category>
+        <pattern>ICH BIN *</pattern>
+        <template>Ohne weiteren Kontext kann ich damit nicht besonders viel Anfangen.</template>
+    </category>
+
+        <!-- NAME -->
+    <!-- unfortunately you cannot SRAI this -->
+    <category>
+        <pattern>MEIN NAME LAUTET *</pattern>
+        <template>Gut zu wissen, dass du <set name="name"><star/></set> heißt</template>
+    </category>
+
+    <category>
+        <pattern>MEIN NAME IST *</pattern>
+        <template>Ok, <set name="name"><star/></set></template>
+    </category>
+
+    <category>
+        <pattern>ICH HEISSE *</pattern>
+        <template>Okay, dann nenne ich dich jetzt <set name="name"><star/></set></template>
+    </category>
+
+    <category>
+        <pattern>NENN MICH *</pattern>
+        <template>Gut zu wissen, dass du <set name="name"><star/></set> heißt</template>
+    </category>
+
+    <category>
+        <pattern>NENNE MICH *</pattern>
+        <template>Gut zu wissen, dass du <set name="name"><star/></set> heißt</template>
+    </category>
+
+    <category>
+        <pattern>* IST MEIN NAME</pattern>
+        <template>Okay, dann nenne ich dich jetzt <set name="name"><star/></set></template>
+    </category>
+
+        <!-- AGE -->
+    <category>
+        <pattern>ICH BIN * JAHRE ALT</pattern>
+        <template>Ok, cool dass du <set name="age"><star/></set> Jahre alt bist. Bin jünger</template>
+    </category>
+
+    <category>
+        <pattern>ICH BIN * JAHRE JUNG</pattern>
+        <template>Ok, cool dass du <set name="age"><star/></set> Jahre 'jung' bist. Bin jünger</template>
+    </category>
+
+    <category>
+        <pattern>ICH BIN VOR * JAHREN GEBOREN WORDEN</pattern>
+        <template>Gut zu wissen dass du <set name="age"><star/></set> Jahre alt bist. Ich bin deutlich jünger als das</template>
+    </category>
+
+
+    <!-- ANSWER -->
+        <!-- NAME -->
+    <!-- ß can't be used. Needs to be substituted for SS-->
+    <category>
+        <pattern>WIE HEISSE ICH</pattern>
+        <template>Du heißt <get name="name"/></template>
+    </category>
+
+    <category>
+        <pattern>* WIE HEISSE ICH</pattern>
+        <template>Du heißt <get name="name"/></template>
+    </category>
+
+    <category>
+        <pattern>WIE LAUTET MEIN NAME</pattern>
+        <template>Du bist <get name="name"/></template>
+    </category>
+
+    <category>
+        <pattern>* WIE LAUTET MEIN NAME</pattern>
+        <template>Du bist <get name="name"/></template>
+    </category>
+
+    <category>
+        <pattern>WIE LAUTET MEIN NAME</pattern>
+        <template><get name="name"/></template>
+    </category>
+
+    <category>
+        <pattern>* WIE LAUTET MEIN NAME</pattern>
+        <template><get name="name"/></template>
+    </category>
+
+    <category>
+        <pattern>WIE LAUTET MEIN NAME</pattern>
+        <template><get name="name"/></template>
+    </category>
+
+
+
+</aiml>

@@ -1,5 +1,6 @@
-
-# Created by https://www.gitignore.io/api/python
+.DS_Store
+._*
+.idea/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -104,3 +105,5 @@ venv.bak/
 
 
 # End of https://www.gitignore.io/api/python
+/programy/
+*.log

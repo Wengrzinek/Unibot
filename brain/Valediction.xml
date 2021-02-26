@@ -1,0 +1,104 @@
+<!--
+Valedictions are the opposite of greetings (lat. Vale Dicere). So...this is the file to say "GoodBye" et cetera.
+It used to be called Validation due to a spelling mistake.
+-->
+
+<aiml vversion="2.0">
+    <category>
+        <pattern>CIAO</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CIAO *</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TSCHAU</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TSCHAU *</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TSCHÜSS</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TSCHÜSS *</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TSCHÜSSI</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TSCHÜSSI *</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AUF WIEDERSEHEN</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AUF WIEDERSEHEN *</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BIS DANN</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BIS DANN *</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+            <random>
+                <li>Bye</li>
+                <li>Ciao</li>
+                <li>Tschüss</li>
+                <li>Bis später</li>
+                <li>Auf Wiedersehen</li>
+            </random>
+        </template>
+    </category>
+
+</aiml>

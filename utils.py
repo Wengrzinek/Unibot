@@ -1,4 +1,4 @@
-# from template
+# entirely from template
 from os.path    import join
 from os         import remove
 

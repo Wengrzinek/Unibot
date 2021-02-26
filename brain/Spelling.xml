@@ -1,0 +1,55 @@
+<!--
+Spelling aiml. You'll have to manually add common spelling mistakes to this file. Laboursome and thus very much
+incomplete. It does work however and is a proof of concept. Either @walterwhite302 or @sandravgabriel tried to add the
+spelling syntax for HALLO and TSCHÜSS but failed in doing so correctly.
+
+Via SRAI tags, you can "fix" spelling errors by redirecting it to the correct words.
+
+-->
+<aiml>
+    <!-- fixing spelling via SRAI works like THIS -->
+    <category>
+        <pattern>_ HEISE *</pattern>
+        <template>
+            <srai> <star/> heisse <star index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ HEISS *</pattern>
+        <template>
+            <srai> <star/> heisse <star index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ heiß *</pattern>
+        <template>
+            <srai> <star/> heisse <star index="2"/></srai>
+        </template>
+    </category>
+
+        <category>
+        <pattern>_ heiße *</pattern>
+        <template>
+            <srai> <star/> heisse <star index="2"/></srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern> _ HALO *</pattern>
+        <template>
+            <srai>HI</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>_ TCHÜS *</pattern>
+        <template>
+            <srai>BYE</srai>
+        </template>
+    </category>
+
+
+</aiml>
