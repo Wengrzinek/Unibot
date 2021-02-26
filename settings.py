@@ -5,10 +5,10 @@ import os
 COMMAND_PREFIX = "!"
 
 # The bot token. It's essentially the link between Discord and the bot. Keep it secret!
-BOT_TOKEN = "ODEwNjA2ODIzMzA3NzM5MTc2.YCmGbw.NNvoDwgCLqL1y-mqU-gKOpOQs_E"
+BOT_TOKEN = "ENTER BOT TOKEN HERE"
 
 # The channel name. Set it to nothing to enable the bot in every channel
-CHANNEL_NAME = "bot"  # bot will be the default bot channel
+CHANNEL_NAME = ""
 
 # The now playing game setting. Set this to anything or nothing to disable it
 NOW_PLAYING = ""
