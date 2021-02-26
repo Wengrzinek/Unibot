@@ -1,4 +1,7 @@
-<!-- An exclamation is a sudden remark. Sth like "Cool" without any context -->
+<!--
+An exclamation is a sudden remark. Sth like "Cool" without any context. Added because people seem to just use it whenever
+they talked with the bot.
+-->
 <aiml>
     <category>
         <pattern>COOL</pattern>

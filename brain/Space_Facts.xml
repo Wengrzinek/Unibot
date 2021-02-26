@@ -1,5 +1,9 @@
-<aiml>
+<!--
+Space facts. A small part of the entries have been created by @walterwhite302 and @sandravgabriel, but even those have
+been entirely reworked by me due to faulty syntax or the sentences needing majour restructuring.
+-->
 
+<aiml>
     <category>
         <pattern>WELTRAUMFAKTEN</pattern>
         <template>

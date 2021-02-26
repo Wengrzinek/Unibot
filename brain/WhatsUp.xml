@@ -1,4 +1,7 @@
-<!-- "How are you" but in German -->
+<!--
+"How are you" file.
+This doesn't seem to work for some reason.
+-->
 <aiml version="2.0">
     <category>
         <pattern>WIE GEHTS</pattern>

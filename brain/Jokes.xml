@@ -1,3 +1,7 @@
+<!--
+The jokes that Unibot can say. For some reason, they always include jokes to any sort of bot.
+-->
+
 <aiml version="2.0">
     <category>
         <pattern>WITZ</pattern>

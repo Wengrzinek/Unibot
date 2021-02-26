@@ -1,7 +1,10 @@
+<!--
+WikiQueries. This could also be used for SPARQL.
+
+-->
+
+
 <aiml>
-
-
-
     <category>
         <pattern>WAS IST EIN *</pattern>
         <template>

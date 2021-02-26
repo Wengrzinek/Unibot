@@ -1,4 +1,6 @@
-<!-- Data about the user -->
+<!--
+Data about the user. It uses the <set></set> tags to store some user data.
+-->
 <aiml>
     <!-- USER SET -->
     <category>

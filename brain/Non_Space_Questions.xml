@@ -1,5 +1,9 @@
-<!-- Non-space related questions, such as "What is AIML?" -->
+<!--
+Non-space related questions, such as "What is AIML?"
+-->
 <aiml>
+
+    <!-- Known Bug: WAS IST * overrides any AIML related queries and just wikipedia-searches AIML-->
     <category>
         <pattern>AIML</pattern>
         <template> AIML ist die Sprache auf der ich basiere. Das steht für "Artificial Intelligence Markup Language"</template>
