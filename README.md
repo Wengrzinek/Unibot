@@ -26,11 +26,13 @@ When you have a Discord-Account, you will need to go to the
 Select the new application and under Settings there should be an option called Bot.
 
 ![Bot](https://imgur.com/Puiex9L.png)
+
 There you will find an `Add Bot`
 button. The newly created bot has a Token field where you can regenerate or copy an existing bot token. Copy the existing
 bot token and add it to `BOT_TOKEN` in `settings.py`. 
 
 ![BOT_TOKEN](https://imgur.com/tIC4Six.png)
+
 Now you have created a link between unibot and Discord.
 
 The next step is to create a Discord server. In the Discord client, press the plus button just above the
@@ -48,11 +50,13 @@ Select the OAuth2 menu.
 
 Here you will need to select the `bot` option in `Scopes`.
 
-![Scopes](https://imgur.com/Fae7w4h.png)
+![Scopes](https://imgur.com/Fae7w4h.png
+)
 Which should generate a bot invite link. Before you use the link on any web browser of your choice,
 you will need to set the `Bot Permissions` to `Administrator`.
 
 ![Permissions](https://imgur.com/tWZg2pC.png)
+
 Whilst you generally don't need all the permissions given by `Administrator`, it is the easiest way.
 
 Now you can copy and use the bot invite link generated within ´Scopes´ with any modern web browser. There you should get
