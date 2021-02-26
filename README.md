@@ -50,8 +50,8 @@ Select the OAuth2 menu.
 
 Here you will need to select the `bot` option in `Scopes`.
 
-![Scopes](https://imgur.com/Fae7w4h.png
-)
+![Scopes](https://imgur.com/Fae7w4h.png)
+
 Which should generate a bot invite link. Before you use the link on any web browser of your choice,
 you will need to set the `Bot Permissions` to `Administrator`.
 
