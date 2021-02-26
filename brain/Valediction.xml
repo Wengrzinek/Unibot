@@ -1,4 +1,7 @@
-<!-- Validations are the opposite of greetings. So...this is the file to say "GoodBye" et cetera -->
+<!--
+Valedictions are the opposite of greetings (lat. Vale Dicere). So...this is the file to say "GoodBye" et cetera.
+It used to be called Validation due to a spelling mistake.
+-->
 
 <aiml vversion="2.0">
     <category>
@@ -86,62 +89,6 @@
     </category>
 
     <category>
-        <pattern>GUT</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* GUT</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>GUT *</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* GUT *</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>SCHÖN</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* SCHÖN</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>SCHÖN *</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* SCHÖN *</pattern>
-        <template>
-            <srai>NICE</srai>
-        </template>
-    </category>
-
-    <category>
         <pattern>BYE</pattern>
         <template>
             <random>
@@ -154,13 +101,4 @@
         </template>
     </category>
 
-    <category>
-        <pattern>NICE</pattern>
-        <template>
-            <random>
-                <li>Das ist schön</li>
-                <li>Freut mich</li>
-            </random>
-        </template>
-    </category>
 </aiml>

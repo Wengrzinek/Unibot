@@ -1,4 +1,7 @@
-<!-- Start script. "Learns" the aiml/xml files in the brain folder -->
+<!--
+Start script. "Learns" the aiml/xml files in the brain folder. Since AIML uses a xml based file format,
+we can just use .xml files. Reason being that most IDEs can work with XML files natively
+-->
 <aiml version="2.0">
     <!-- learn-startup.xml -->
     <!-- category is an atomic AIML unit -->

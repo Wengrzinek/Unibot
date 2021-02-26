@@ -1,4 +1,11 @@
-<!-- Via SRAI tags, you can "fix" spelling errors by redirecting it to the correct words -->
+<!--
+Spelling aiml. You'll have to manually add common spelling mistakes to this file. Laboursome and thus very much
+incomplete. It does work however and is a proof of concept. Either @walterwhite302 or @sandravgabriel tried to add the
+spelling syntax for HALLO and TSCHÜSS but failed in doing so correctly.
+
+Via SRAI tags, you can "fix" spelling errors by redirecting it to the correct words.
+
+-->
 <aiml>
     <!-- fixing spelling via SRAI works like THIS -->
     <category>
@@ -30,31 +37,19 @@
     </category>
 
     <category>
-        <pattern>HALO</pattern>
+        <pattern> _ HALO *</pattern>
         <template>
             <srai>HI</srai>
         </template>
     </category>
 
-    <category>
-        <pattern>HALO *</pattern>
-        <template>
-            <srai>HI</srai>
-        </template>
-    </category>
 
     <category>
-        <pattern>TCHÜS</pattern>
+        <pattern>_ TCHÜS *</pattern>
         <template>
             <srai>BYE</srai>
         </template>
     </category>
 
-    <category>
-        <pattern>TCHÜS *</pattern>
-        <template>
-            <srai>BYE</srai>
-        </template>
-    </category>
 
 </aiml>

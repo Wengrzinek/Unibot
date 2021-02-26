@@ -7,22 +7,14 @@ from commands               import *
 
 import settings
 
-# Register all available commands
+# Register all available commands. Basic Discord bot stuff.
 COMMAND_HANDLERS = {c.__name__.lower(): c()
                     for c in BaseCommand.__subclasses__()}
 
-###############################################################################
-
-
 async def handle_command(command, args, message, bot_client):
-    # Check whether the command is supported, stop silently if it's not
-    # (to prevent unnecesary spam if our bot shares the same command prefix 
-    # with some other bot)
+    # Check whether the command is supported, ignores if it's not
     if command not in COMMAND_HANDLERS:
         return
-
-    print(f"{message.author.name}: {settings.COMMAND_PREFIX}{command} " 
-          + " ".join(args))
 
     # Retrieve the command
     cmd_obj = COMMAND_HANDLERS[command]
